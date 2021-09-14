@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Spors Db</title>
+</head>
+<body>
+
+
+    <section class="w-50 mx-auto mt-5">
+        <!-- single team detail -->
+        <div id='single-team'>
+            
+        </div>
+        <h1 class='text-center my-4 text-success'>Search Your Sports Club</h1>
+        <div class="input-group mb-3">
+            <input id='input' type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="search()">Search</button>
+          </div>
+             <!-- card  -->
+            <div>
+                <div id='showTeam' class="row row-cols-1 row-cols-md-2 g-4">
+                  </div>
+            </div>
+
+    </section>
+    
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
+</html>
